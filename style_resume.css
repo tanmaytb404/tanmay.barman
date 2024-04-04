@@ -1,0 +1,418 @@
+      body {
+          margin: 0px;
+          font-family: sans-serif;
+          font-size: 30px;
+      }
+
+      /* Body Header */
+
+      #body-header {
+          height: 65vh;
+          opacity: 0.8;
+          background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          padding-top: 1.2rem;
+      }
+
+      /* Horizontal Lists */
+
+      .horizontal-list {
+          list-style: none;
+          padding-left: 0px;
+          margin: 0px;
+      }
+
+      .horizontal-list li {
+          display: inline-block;
+          margin: 0px 8px 8px 0px;
+          font-weight: 100;
+          font-size: 0.9rem;
+      }
+
+
+      .horizontal-list li a {
+          color: white;
+          text-decoration: none;
+      }
+
+      .nav-menu li a {
+          transition: color 0.5s, border-bottom 4s;
+      }
+
+      .nav-menu li a:hover {
+          color: lightgrey;
+          border-bottom: 1px solid black;
+      }
+
+      .text-center {
+          text-align: center;
+      }
+
+      /* Name and Social Icons*/
+
+      #name-social-container {
+          margin-top: 20vh;
+      }
+
+      #my-name {
+          font-size: 3rem;
+          letter-spacing: 0.1rem;
+          color: white;
+          font-weight: 700;
+          margin-bottom: 0.5rem;
+      }
+
+
+      .social-icons li a i {
+          /*color: red;*/
+          padding: 10px;
+          font-size: 1rem;
+          border-radius: 50%;
+      }
+
+
+      .social-icons li a i:hover {
+          box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+      }
+
+      /*About Section*/
+
+      #about {
+          height: auto;
+          width: 100%;
+          position: relative;
+      }
+
+      #my-image {
+          height: 12rem;
+          width: 12rem;
+          margin: auto;
+          margin-top: -17vh;
+      }
+
+      #my-image img {
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+          border: 3px solid white;
+          box-shadow: 1px 1px 10px 2px lightgrey;
+      }
+
+
+      #about-para {
+          padding: 10px;
+          width: 70%;
+          text-align: justify;
+          color: grey;
+          line-height: 28px;
+          font-size: 1.1rem;
+          margin: auto;
+      }
+
+      .text-highlight {
+          color: #2857a4;
+          font-weight: 600;
+      }
+
+      .section-heading {
+          display: flex;
+          justify-content: center;
+      }
+
+      .section-heading span {
+          padding-right: 1%;
+          font-size: 3rem;
+          font-family: math;
+          color: cornflowerblue;
+      }
+
+
+      /*Skills Section*/
+
+
+
+      .skills-display {
+          width: 70%;
+          margin-top: 4rem;
+          margin-bottom: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+
+      .skill-progress {
+          width: 7rem;
+          height: 1.4rem;
+          margin: 20px;
+          background-color: lightgrey;
+          border-radius: 0.8rem;
+          overflow: hidden;
+          box-shadow: inset 1px 1px 2px 1px #b9b9b9;
+      }
+
+      /*.skill-progress>div{
+    border-radius: 20px 0 0 20px;
+    box-shadow: 1px 1px 5px 2px #98989882
+}*/
+
+      .skill-name {
+          font-size: 15px;
+          color: white;
+          padding: 6px 0 10px 20px;
+
+      }
+
+      .skill-name span {
+          margin: 0;
+      }
+
+      /* workexperience section */
+      .timeline {
+          border: 1px solid black;
+          width: 75%;
+          position: relative;
+          margin: 10%;
+      }
+
+      .timeline-box {
+          border: 1px dotted black;
+          width: 40%;
+          height: 140px;
+          left: 5%;
+          position: relative;
+      }
+
+      .timeline-box:nth-child(2n) {
+          left: 53%;
+      }
+
+      .timeline-box:nth-child(2n)::after {
+          content: ' ';
+          background-color: red;
+          position: absolute;
+          top: 35%;
+          width: 0.5rem;
+          height: 0.5rem;
+          border-radius: 50%;
+          left: -10%;
+          z-index: 1;
+      }
+
+      .timeline-box:nth-child(2n+1)::after {
+          content: ' ';
+          background-color: red;
+          position: absolute;
+          top: 35%;
+          width: 0.5rem;
+          height: 0.5rem;
+          border-radius: 50%;
+          right: -15%;
+          z-index: 1;
+      }
+
+      .timeline-divider {
+          height: 75%;
+          border: 2px dashed cornflowerblue;
+          left: 50%;
+          width: 0;
+          position: absolute;
+          top: 10%;
+      }
+
+      .time-travel {
+          position: sticky;
+          top: 45%;
+          transform: rotate(90deg);
+          font-size: 2rem;
+          z-index: 2;
+      }
+
+      .time-travel .edu {
+          transform: rotate(270deg);
+      }
+
+      /* Portfolio Section */
+
+      #portfolio-container {
+          box-sizing: border-box;
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          padding: 0 50px;
+          margin-bottom: 2%;
+          justify-content: space-around;
+      }
+
+      .portfolio-image-container {
+          max-width: 300px;
+          overflow: hidden;
+          margin: 10px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: relative;
+      }
+
+
+      .portfolio-image-container img {
+          width: 100%;
+          height: 100%;
+      }
+
+      .portfolio-details {
+          /* display: none; */
+          transition: all 0.5s ease-in-out;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          color: transparent;
+          text-align: center;
+          padding: 10px;
+          /* background-color: white; */
+      }
+
+      .portfolio-image-container:hover {
+          box-shadow: 0 0 20px #74ADC8;
+      }
+
+      .portfolio-image-container:hover .portfolio-details {
+          background-color: #80808078;
+          /* display: block; */
+          color: white;
+      }
+
+
+
+      #contact {
+          height: 500px;
+          background-image: linear-gradient(to right, #2857a4, #403066)
+      }
+
+      .contact-heading {
+          display: flex;
+          justify-content: center;
+      }
+
+      .contact-heading span {
+          padding: 1%;
+          font-size: 3rem;
+          font-family: math;
+          color: white;
+      }
+
+      /*common color classes */
+
+      .text-highlight {
+          color: #2857a4;
+          font-weight: 600;
+
+      }
+
+      .mb-blue {
+          background-color: #2857a4;
+      }
+
+      .mb-orange {
+          background-color: #ff5722;
+      }
+
+
+      .mb-teal {
+          background-color: #009688;
+      }
+
+      .mb-light-purple {
+          background-color: #93738c;
+      }
+
+      .m-blue {
+          color: #2857a4;
+      }
+
+      /*Common Percent classes*/
+      .eighty-percent {
+          height: inherit;
+          width: 80%;
+      }
+
+      .eighty-five-percent {
+          height: inherit;
+          width: 80%;
+      }
+
+      .seventy-five-percent {
+          height: inherit;
+          width: 75%;
+      }
+
+      /* common margin classes */
+      .m0 {
+          margin: 0;
+      }
+
+
+      @media screen and (max-width:768px) {
+          .timeline {
+              border: 1px solid red;
+              width: 75%;
+              position: relative;
+              margin: 10%;
+          }
+
+          .timeline-box {
+              border: 1px dotted black;
+              width: 40%;
+              height: 140px;
+              left: 5%;
+              position: relative;
+          }
+
+          .timeline-box:nth-child(2n) {
+              left: 5% !important;
+          }
+
+          .timeline-box:nth-child(2n)::after {
+              content: ' ';
+              background-color: red;
+              position: absolute;
+              top: 35%;
+              width: 0.5rem;
+              height: 0.5rem;
+              border-radius: 50%;
+              left: -3.5%;
+              z-index: 1;
+          }
+
+          .timeline-box:nth-child(2n+1)::after {
+              content: ' ';
+              background-color: red;
+              position: absolute;
+              top: 35%;
+              width: 0.5rem;
+              height: 0.5rem;
+              border-radius: 50%;
+              left: -3.5%;
+              z-index: 1;
+          }
+
+          .timeline-divider {
+              height: 75%;
+              border: 1.5px dashed cornflowerblue;
+              left: 4% !important;
+              width: 0;
+              position: absolute;
+              top: 10%;
+          }
+      }
+
+      .fa-bars {
+          display: none;
+      }
+
+      @media screen and (max-width: 572px) {
+          .fa-bars {
+              display: inline-block;
+          }
+      }
