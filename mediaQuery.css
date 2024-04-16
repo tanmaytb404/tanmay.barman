@@ -1,0 +1,707 @@
+@media screen and (max-width:319px){
+.home{
+    max-height: 5vh;
+}
+    .navbar{
+    max-width: 100%;
+}
+.max-width{
+    max-width: 100%;
+}
+.logo a{
+    font-size: 7vw  !important;
+    /* border: 1px solid yellow; */
+}
+.menu-btn{
+    font-size: 7vw;
+    overflow: hidden;
+}
+a.menu-btn{
+    font-size: 8vw !important;
+    margin: 0;
+    padding: 0;
+}
+.home-content .text-1,.text-2{
+    width: 100%;
+    margin: 0;
+    font-size: 8vw !important;
+    text-align: center;
+}
+
+.text-3 .typing, .typed-cursor{
+    font-size: 8vw !important;
+}
+
+.social{
+    max-width: 100%;
+}
+
+.social ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 8vw;
+    margin: 0;
+    justify-content: center;
+}
+
+.about, .max-width{
+    max-width: 100%;
+    /* max-height: 5vh; */
+    margin: 0;
+    margin-top: -40px !important;
+}
+section .title {
+    padding-bottom: 35px !important;
+}
+.title, .text, p, h2, h3{
+    font-size: 7vw !important;
+    text-align: center;
+    line-height: 2vh;
+}
+
+.about .title::after {
+    line-height: 2vh;
+margin-top: 10px;
+font-size: 7vw !important;
+text-align: center;
+}
+
+.column img{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: -20px;
+}
+
+.column .text{
+    margin-top: -20px;
+    line-height: 20px;
+}
+
+.about .about-content .right a {
+    font-size: 7vw !important;
+}
+
+.about .about-content .right p{
+    font-size: 4vw !important;
+}
+
+.experience .title{
+    margin-top: 6vh;
+}
+
+.experience .title::before {
+    display: none;
+}
+
+/* workexperience section */
+.experience {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px dotted red; */
+}
+
+.timeline {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 100%;
+}
+
+.timeline-box {
+    /* border: 1px dotted black; */
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* margin: 20px; */
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    content: ' ';
+    background-color: grey;
+    position: absolute;
+    top: 30%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* left: -1.55rem; */
+    transform: translateX(-2.65em);
+    z-index: 1;
+    display: none;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: ' ';
+    background-color: grey;
+    position: absolute;
+    top: 40%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* right: -2.45rem; */
+    transform: translateX(24.6vw);
+    z-index: 1;
+    display: none;
+}
+
+.timeline-divider {
+    height: 85%;
+    border: 1px dashed black;
+    left: 50%;
+    width: 0;
+    position: absolute;
+    top: 10%;
+
+}
+
+.time-travel {
+    position: sticky;
+    top: 50%;
+    transform: translateX(-1.5px) translateY(-0.3em) rotate(90deg);
+    font-size: 3em;
+    z-index: 2;
+    color: crimson;
+}
+
+.timeline-box .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -10vh !important;
+}
+
+.timeline-box .row .col1 {
+    font-size: 15vw !important;
+    padding: 0 !important;
+    width: 30%;
+    text-align: left;
+    margin: 0 !important;
+    margin-left: -20vw !important;
+}
+
+.timeline-box .row .col2 {
+    font-size: 4vw;
+    padding: 0 !important;
+    text-align: right;
+    width: 70%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.timeline-box .row .col3 {
+    /* font-size: 1.8rem; */
+    padding: 2px;
+    margin: 0 !important;
+    text-align: justify;
+    width: 100%;
+    color: gray;
+    border: 1px solid black;
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.col1 svg {
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+    /* Adjust the shadow offset and blur radius as needed */
+}
+
+.education {
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 img {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+}
+
+
+/* -------------------------------- */
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .max-width {
+        max-width: 930px;
+    }
+
+    .about .about-content .column {
+        width: 100%;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right {
+        flex: 100%;
+    }
+
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .skills .skills-content .column,
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    
+/* workexperience section */
+.experience {
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px dotted red; */
+}
+
+.timeline {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 100%;
+}
+
+.timeline-box {
+    /* border: 1px dotted black; */
+    width: 40%;
+    height: 200px;
+    left: 5%;
+    position: relative;
+    /* margin: 20px; */
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    content: ' ';
+    background-color: grey;
+    position: absolute;
+    top: 30%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* left: -1.55rem; */
+    transform: translateX(-2.65em);
+    z-index: 1;
+    display: none;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: ' ';
+    background-color: grey;
+    position: absolute;
+    top: 40%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* right: -2.45rem; */
+    transform: translateX(24.6vw);
+    z-index: 1;
+    display: none;
+}
+
+.timeline-divider {
+    height: 85%;
+    border: 1px dashed black;
+    left: 50%;
+    width: 0;
+    position: absolute;
+    top: 10%;
+
+}
+
+.time-travel {
+    position: sticky;
+    top: 50%;
+    transform: translateX(-1.5px) translateY(-0.3em) rotate(90deg);
+    font-size: 3em;
+    z-index: 2;
+    color: crimson;
+}
+
+.timeline-box .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.timeline-box .row .col1 {
+    font-size: 4rem;
+    padding: 2px;
+    width: 30%;
+    text-align: left;
+}
+
+.timeline-box .row .col2 {
+    /* font-size: 1.5rem; */
+    padding: 2px;
+    text-align: right;
+    width: 70%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.timeline-box .row .col3 {
+    /* font-size: 1.8rem; */
+    padding: 2px;
+    margin: 1%;
+    text-align: justify;
+    width: 100%;
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.col1 svg {
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+    /* Adjust the shadow offset and blur radius as needed */
+}
+
+.education {
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 img {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+}
+
+@media (max-width: 767px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 32px;
+    }
+
+    .home .home-content a {
+        font-size: 20px;
+    }
+
+    .services .serv-content .card {
+        width: 100%;
+    }
+
+
+    .experience {
+        width: 100%;
+        display: inline;
+    }
+
+    .education {
+        width: 100%;
+        display: inline;
+    }
+
+    .timeline {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+    }
+
+    .timeline-box {
+        /* border: 1px dotted black; */
+        width: 70%;
+        height: 300px;
+        left: 15%;
+        position: relative;
+    }
+
+    .education .timeline-box .col1 {
+        display: flex;
+        justify-content: right;
+        padding: 5px;
+        /* margin-top: 5%; */
+        object-fit: cover;
+    }
+
+    .education .timeline-box .col2 {
+        font-size: 10px;
+    }
+
+    .education .mb-top {
+        margin-top: -8%;
+    }
+
+    .education .timeline-box h2,
+    h1,
+    p {
+        text-align: right;
+        width: 100%;
+    }
+
+    .timeline-box:nth-child(2n) {
+        left: 15%;
+    }
+
+    .timeline-box:nth-child(2n)::after {
+        display: none !important;
+    }
+
+    .timeline-box:nth-child(2n+1)::after {
+        display: none !important;
+    }
+
+    .timeline-divider {
+        height: 80%;
+        border: 1px dashed black;
+        left: 92.3%;
+        /* right: 90%; */
+        width: 0;
+        top: 5%;
+        position: absolute;
+    }
+
+    .time-travel {
+        position: sticky;
+        top: 40%;
+        transform: translateX(-1.5px) translateY(-0.7em) rotate(90deg);
+        font-size: 3em;
+        z-index: 2;
+        color: crimson;
+    }
+
+
+    .achievements {
+        width: 100%;
+    }
+
+    .achievements .serv-content .card {
+        width: 100%;
+        margin: 1%;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 575px) {
+    .social ul{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 8vw;
+        margin: 0;
+        justify-content: center;
+    }
+    .home .home-content .text-2 {
+        font-size: 40px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 27px;
+    }
+
+    .about .about-content .right .text,
+    .skills .skills-content .left .text {
+        font-size: 19px;
+    }
+
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+
+    .contact .right form .name,
+    .contact .right form .email {
+        margin: 0;
+    }
+
+    .right form .error-box {
+        width: 150px;
+    }
+
+    .column img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .experience {
+        width: 100%;
+        display: inline;
+    }
+
+    .education {
+        width: 100%;
+        display: inline;
+    }
+
+    .timeline {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+    }
+
+    .timeline-box {
+        /* border: 1px dotted black; */
+        width: 70%;
+        height: 250px;
+        left: 15%;
+        position: relative;
+        margin-bottom: 7vh;
+    }
+
+    .education .timeline-box .col1 {
+        display: flex;
+        justify-content: right;
+        padding: 5px;
+        /* margin-top: 5%; */
+        object-fit: cover;
+    }
+
+    .education .timeline-box .col2 {
+        font-size: 10px;
+    }
+
+    .education .mb-top {
+        margin-top: -10%;
+    }
+
+    .education .timeline-box h2,
+    h1,
+    p {
+        text-align: right;
+        width: 100%;
+    }
+
+    .timeline-box:nth-child(2n) {
+        left: 15%;
+    }
+
+    .timeline-box:nth-child(2n)::after {
+        display: none !important;
+    }
+
+    .timeline-box:nth-child(2n+1)::after {
+        display: none !important;
+    }
+
+    .timeline-divider {
+        height: 80%;
+        border: 1px dashed black;
+        left: 92.3%;
+        /* right: 90%; */
+        width: 0;
+        top: 5%;
+        position: absolute;
+    }
+
+    .time-travel {
+        position: sticky;
+        top: 40%;
+        transform: translateX(-1.5px) translateY(-0.7em) rotate(90deg);
+        font-size: 3em;
+        z-index: 2;
+        color: crimson;
+    }
+
+
+    .achievements {
+        width: 100%;
+    }
+
+    .achievements .serv-content .card {
+        width: 100%;
+        margin: 1%;
+    }
+
+}
