@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+body{
+    
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -351,6 +355,12 @@ section .title::after {
     box-shadow: inset 1px 1px 2px 1px #b9b9b9;
 }
 
+.ninety-percent{
+    width: 90%;
+    height: inherit;
+    background-color:#a07df9;
+}
+
 .eighty-five-percent {
     width: 85%;
     height: inherit;
@@ -439,6 +449,7 @@ section .title::after {
 
 .achievements .serv-content .card .box {
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .achievements .serv-content .card:hover .box {
@@ -469,6 +480,7 @@ section .title::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .projects .carousel .card:hover {
