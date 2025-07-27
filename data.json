@@ -1,0 +1,70 @@
+{
+  "achievements": {
+    "leetcode": {
+      "totalSolved": 450,
+      "easySolved": 150,
+      "mediumSolved": 250,
+      "hardSolved": 50,
+      "ranking": "Top 10%",
+      "streak": 30
+    },
+    "geeksforgeeks": {
+      "totalSolved": 300,
+      "codingScore": 850,
+      "ranking": "Top 5%"
+    },
+    "hackerrank": {
+      "totalSolved": 200,
+      "certificates": 5,
+      "ranking": "Top 15%"
+    },
+    "certifications": [
+      {
+        "name": "Oracle Certified Professional Java Programmer 8",
+        "issuer": "Oracle",
+        "date": "2023",
+        "id": "OCPJP8-2023-001"
+      },
+      {
+        "name": "AWS Certified Developer",
+        "issuer": "Amazon Web Services",
+        "date": "2023",
+        "id": "AWS-DEV-2023-002"
+      }
+    ]
+  },
+  "skills": {
+    "programming": [
+      { "name": "Java", "level": 85, "years": 3 },
+      { "name": "Python", "level": 80, "years": 2 },
+      { "name": "JavaScript", "level": 75, "years": 2 },
+      { "name": "C++", "level": 70, "years": 1 }
+    ],
+    "technologies": [
+      { "name": "Spring Boot", "level": 80 },
+      { "name": "React", "level": 70 },
+      { "name": "MySQL", "level": 75 },
+      { "name": "Docker", "level": 65 }
+    ]
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/tanmaybarman",
+    "github": "https://github.com/tanmaytb404",
+    "leetcode": "https://leetcode.com/tanmaytb404",
+    "geeksforgeeks": "https://www.geeksforgeeks.org/user/tanmaytb404",
+    "hackerrank": "https://www.hackerrank.com/profile/tanmaytb404"
+  },
+  "stats": {
+    "github": {
+      "repositories": 25,
+      "stars": 150,
+      "forks": 80,
+      "contributions": 1200
+    },
+    "leetcode": {
+      "contestRating": 1800,
+      "globalRanking": 5000,
+      "streak": 30
+    }
+  }
+} 
